@@ -1,11 +1,16 @@
 #' Plot point stile using the number of "pch" of plot()
 #' 
-#' @param i   Integer. The number of pch. See \code{\link{pch}}.
-#' @param adj Numeric. Adjunstment of test label position.
+#' @param 
+#' i   [integer]\cr
+#' The number of pch. See \code{\link{pch}}.
+#' @param 
+#' adj [numeric]\cr
+#' Length to adjunst label position.
 #' 
 #' @examples
 #' view_plot_pch_styles(3:1)
 #' 
+#' @return NULL
 #' @export
 #' 
 

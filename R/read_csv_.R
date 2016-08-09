@@ -1,9 +1,17 @@
 #' read CSV file with fread.
 #' 
-#' @param file    Character. File path.
-#' @param data.table    Logical. If TRUE, return data.table object. Default is FALSE.
-#' @param sep     Character. Separator. Default is "," (as CSV file).
-#' @param ...     See \code{\link{fread}} 
+#' @param 
+#' file    [Character]\cr
+#' Path to file.
+#' @param 
+#' data.table [Logical]\cr
+#' If TRUE, return data.table object. Default is FALSE.
+#' @param
+#' sep     [Character]\cr 
+#' Delimitor of ASCII file. Default is "," (as CSV file).
+#' @param 
+#' ...     
+#' See \code{\link{fread}} 
 #' 
 #' @importFrom data.table fread 
 #' @export

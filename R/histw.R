@@ -1,8 +1,14 @@
+#' @title
 #' Plot histgram using bin width.
-#' @description Plot histgram using bin width using  direct plug-in methodology. See \link{dpih}.
-#' @param data    Numeric.
-#' @param bw      Numeric. Bin width for plotting histgram. Deafault is NULL (autmatic).
-#' @param ...     Other option of \code{\link{hist}}
+#' @description 
+#' Plot histgram using bin width using  direct plug-in methodology. See \link{dpih}.
+#' @param
+#' data    [vector]
+#' @param
+#' bw      [numeric]\cr 
+#' Bin width for plotting histgram. Deafault is NULL (autmatic).
+#' @param
+#'  ...    Other option of \code{\link{hist}}
 #'  
 #' @examples
 #' histw(rnorm(100))
