@@ -23,9 +23,3 @@ genRGB_colorRamp <- function(n,grad=c("blue","red"),alpha = 200, max=255){
   rgb( ramp(seq(0, 1, length = L)), alpha = alpha, max=max)
 }
 
-genRGB_colorRamp(1:120)
-genRGB_colorRamp(n=10, grad=c("black","green","red"), alpha = 128)
-
-x=1:120
-plot(x, col=genRGB_colorRamp(x))
-
