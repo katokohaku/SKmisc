@@ -27,7 +27,7 @@
 `%+%` <- function(x,y) paste0(x,y)                      
 
 
-#' Convert vector -> String
+#' Convert String -> splitted character vector
 #' 
 #' @param x [a vector]
 #' 
@@ -39,7 +39,7 @@
 #' 
 s2v <- function(x){ unlist( str_split(x,"") ) } 
 
-#' Convert String -> vector
+#' Convert vector -> String
 #' 
 #' @param x [a string]
 #' 

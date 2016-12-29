@@ -7,6 +7,8 @@ Author: Satoshi KATO
 Maintainer: Satoshi KATO <ss-kato@fujirebio.co.jp>
 Description: miscellaneous tool functions by SK
 License: MIT + file LICENSE
+Suggests:
+    testthat
 Imports:
-    dplyr,
+    dplyr
 RoxygenNote: 5.0.1
