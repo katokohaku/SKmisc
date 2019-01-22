@@ -18,10 +18,12 @@
 #' @importFrom KernSmooth dpih
 #' @export
 
-histw <- function(data, bw=NULL, ...){
+histw <- function(data, bw=NULL, .quiet = FALSE, ...){
   stopifnot(!missing(data))
-  if(is.null(bw)) bw <- dpih(data)
-  catf("binwidth = %f",bw)
+  if(is.null(bw)) {
+    bw <- KernSmooth::dpih(data)
+    if(.quiet == FALSE) catf("binwidth = %f", bw)
+  }
   breaks <- seq(min(data)-bw,max(data)+bw,bw)
   hist(data, breaks=breaks, ...)
 }

@@ -1,3 +1,6 @@
+#' @title
+#' write CSV file with filename= objectName_timestamp.csv.
+#' @description 
 #' write CSV file with filename= objectName_timestamp.csv.
 #' 
 #' @param 
@@ -18,6 +21,7 @@
 #' 
 #' @importFrom data.table fread 
 #' @export
+#' 
 #' 
 write.csv_ <- function(x, base=NA, row.names=FALSE, ...){
   ex <- substitute(x)
